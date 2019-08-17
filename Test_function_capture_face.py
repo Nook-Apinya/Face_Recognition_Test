@@ -11,7 +11,7 @@ faces = cascade.detectMultiScale(gray, 1.4, 5)
 for (x,y,w,h) in faces:
     cv2.rectangle(img,(x,y),(x+w,y+h),(256,0,0),2)
 
-cv2.imshow('Face detection',img)
+cv2.imshow('Face detection 1#:',img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
